@@ -9,6 +9,7 @@ let read = document.querySelector(".heada");
 const resetgame = () => {
     
     read.innerText = `Happy Vijayadashami` ;
+    read.style.filter = "drop-shadow(2px 2px 30px rgb(215, 67, 213))";
     left.style.backgroundImage = "url('https://png.pngtree.com/png-vector/20220923/ourmid/pngtree-vijaydashami-ram-image-png-image_6213870.png')";
     left.style.backgroundSize = "cover";
     left.style.backgroundSize = "cover";
